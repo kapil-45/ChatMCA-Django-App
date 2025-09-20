@@ -1,0 +1,61 @@
+# .gitignore file (create this in your project root)
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Media files
+media/
+staticfiles/
+
+# Backup files
+*.bak
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
